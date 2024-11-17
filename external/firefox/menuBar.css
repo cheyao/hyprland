@@ -1,0 +1,25 @@
+/*
+ * This file is distrubuted under the zlib license
+ *
+ * https://support.mozilla.org/en-US/kb/contributors-guide-firefox-advanced-customization
+ */
+
+#nav-bar {
+    background: #2B6088 !important; /* Navigation bar */
+}
+
+#PersonalToolbar {
+    background: #2B6088 !important; /* Bookmark bar */
+}
+
+#navigator-toolbox {
+    background: #376D99 !important; /* Top bar color on focus */ 
+}
+
+#urlbar-background {
+    background: #3B7299 !important; /* Input bar color */
+}
+
+.tab-background:is([selected], [multiselected]) {
+    background: #356f9e !important; /* Color of the selected tab */
+}

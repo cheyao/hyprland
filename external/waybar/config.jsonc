@@ -1,0 +1,90 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "margin": "10, 20, 0, 20",
+    "modules-left": [
+        "hyprland/workspaces",
+        "cpu"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "tray",
+        "pulseaudio",
+        "network",
+        "memory",
+        "backlight",
+        "battery",
+        "custom/power"
+    ],
+    "hyprland/workspaces": {
+        "all-outputs": true,
+        "on-click": "activate",
+	"persistent-workspaces": {
+		"*": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+	}
+    },
+    "tray": {
+        "spacing": 10,
+	"icon-size": 15
+    },
+    "clock": {
+        "tooltip-format": "<big>{:I:%M %p}</big>",
+        "format-alt": "{:%Y-%m-%d}",
+        "tooltip": false
+    },
+    "cpu": {
+        "format": " {usage}%",
+        "tooltip": false,
+	"on-click": "kitty -e htop"
+    },
+    "battery": {
+        "states": {
+            "good": 70,
+            "warning": 30,
+            "critical": 25
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "backlight": {
+        "device": "intel_backlight",
+        "format": "{icon} {percent}%",
+        "format-icons": [
+            "☼",
+            ""
+        ],
+        "on-scroll-down": "brightnessctl -c backlight set 1%-",
+        "on-scroll-up": "brightnessctl -c backlight set +1%"
+    },
+    "network": {
+        "format-wifi": " ",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    "custom/power": {
+        "format" : "⏻",
+        "on-click" : "wlogout",
+	"tooltip": false
+    }
+}
