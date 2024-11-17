@@ -2,7 +2,7 @@
 
 ![](https://cloud-4s2r89xke-hack-club-bot.vercel.app/0image.png)
 
-Hyprland theme including MacOS-like keys, blue color scheme, firefox theme, fastfetch, vim configs...
+Hyprland theme including MacOS-like keys, blue color scheme, firefox theme, fastfetch, vim configs... (8 hours)
 
 ## Installation
 1. Install https://github.com/end-4/dots-hyprland/tree/main
