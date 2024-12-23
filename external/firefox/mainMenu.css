@@ -17,7 +17,8 @@
         position: fixed;
         top: 0;
         left: 0;
-        background: #f9a no-repeat url(img/gura.png) center;
+        /* background: #f9a no-repeat url(img/gura.png) center; */
+	background-color: #9fcfff;
         background-size: cover;
         width: 100vw;
         height: 100vh;
