@@ -102,8 +102,16 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 export CC=clang
 export CXX=clang++
 export EM_CACHE=~/emscripten/cache
-source /home/cyao/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="$PATH:/opt/android-sdk/emulator/"
+export LATTICE_LICENSE_FILE="/home/cyao/lscc/license/license.dat;"
+export GEM_HOME="$(gem env user_gemhome 2>/dev/null)"
+export PATH="$PATH:$GEM_HOME/bin"
+
+alias push="git push"
+alias pull="git pull"
+alias come="git push"

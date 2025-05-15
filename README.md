@@ -16,3 +16,5 @@ $ ./install.sh
 ```
 3. Go to `about:config`  and set `toolkit.legacyUserProfileCustomizations.stylesheets` to true!
 4. Restart firefox
+
+W background drawn by `@acon` (`acornitum`)!
