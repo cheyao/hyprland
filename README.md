@@ -18,3 +18,5 @@ $ ./install.sh
 4. Restart firefox
 
 W background drawn by `@acon` (`acornitum`)!
+
+Note for self: https://sr.ht/~emersion/kanshi/
