@@ -113,6 +113,7 @@ export GEM_HOME="$(gem env user_gemhome 2>/dev/null)"
 export PATH="$PATH:$GEM_HOME/bin"
 export PATH="$PATH:/home/cyao/.local/bin"
 export PATH="$PATH:/home/cyao/.wakatime"
+export PATH="$PATH:/home/cyao/osxcross/target/bin"
 
 alias push="git push"
 alias pull="git pull"
