@@ -8,7 +8,6 @@ android-sdk-platform-tools
 android-tools
 ani-cli
 anki
-anyrun-git
 arm-none-eabi-gcc
 arm-none-eabi-newlib
 aseprite
@@ -99,6 +98,7 @@ ibus
 ibus-sunpinyin
 imagemagick
 imhex
+impala
 inetutils
 inkscape
 intel-compute-runtime
@@ -116,6 +116,8 @@ iw
 iwd
 java-environment-common
 java-runtime-common
+jdk-openjdk
+jdk17-openjdk
 jdk21-openjdk
 jq
 kcachegrind
@@ -131,6 +133,7 @@ kitty
 kmenuedit
 krita
 krita-plugin-gmic
+languagetool
 ld-lsb
 ldns
 lib32-alsa-plugins
@@ -176,6 +179,7 @@ nano
 nasm
 ncurses5-compat-libs
 neovim
+net-tools
 networkmanager
 ninja
 nmap
@@ -183,6 +187,7 @@ nng
 noto-fonts-cjk
 noto-fonts-emoji
 nss-mdns
+obs-studio
 obsidian
 okular
 opencl-mesa
@@ -245,8 +250,11 @@ quickemu-git
 reflector
 riscv64-elf-gcc
 riscv64-elf-newlib
+riscv64-linux-gnu-gcc
+rofi
 root
 rpi-imager
+rsync
 ruby-stdlib
 sbt
 scrcpy
@@ -270,7 +278,8 @@ texlive-latexextra
 texlive-latexrecommended
 texlive-mathscience
 thermald
-thunar
+tigervnc
+tio
 tldr
 tlp
 tmux
@@ -280,6 +289,7 @@ ttf-fira-code
 ttf-fira-sans
 ttf-liberation
 ttf-material-symbols-variable-git
+umu-launcher
 unp
 unrar
 usbmuxd
@@ -294,6 +304,7 @@ vulkan-intel
 vulkan-radeon
 vulkan-tools
 waybar
+wayvnc
 wget
 wine-staging
 winetricks
