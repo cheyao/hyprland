@@ -122,8 +122,4 @@ alias come="git push"
 # source /home/cyao/Developer/oss-cad-suite/environment
 rfkill unblock all
 
-alias eve="LD_PRELOAD= PROTON_NO_FSYNC=1 PROTON_NO_ESYNC=1 PROTONPATH=\"/usr/share/steam/compatibilitytools.d/proton-ge-custom/\" gamescope --fullscreen umu-run /home/cyao/Games/umu/umu-default/drive_c/users/steamuser/AppData/Local/eve-online/eve-online.exe"
-
-# terminal-wakatime setup
-export PATH="$HOME/.wakatime:$PATH"
-eval "$(terminal-wakatime init)"
+alias eve="LD_PRELOAD= PROTON_NO_FSYNC=1 PROTON_NO_ESYNC=1 PROTONPATH=\"/usr/share/steam/compatibilitytools.d/proton-ge-custom/\" gamescope --fullscreen --force-grab-cursor -W 1920 -H 1080 -- umu-run /home/cyao/Games/umu/umu-default/drive_c/users/steamuser/AppData/Local/eve-online/eve-online.exe"
