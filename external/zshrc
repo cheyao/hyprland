@@ -110,13 +110,15 @@ export EM_CACHE=~/emscripten/cache
 export PATH="$PATH:/opt/android-sdk/emulator/"
 export LATTICE_LICENSE_FILE="/home/cyao/lscc/license/license.dat;"
 export GEM_HOME="$(gem env user_gemhome 2>/dev/null)"
+
 export PATH="$PATH:$GEM_HOME/bin"
 export PATH="$PATH:/home/cyao/.local/bin"
-export PATH="$PATH:/home/cyao/osxcross/target/bin"
+export PATH="$PATH:/usr/osxcross/bin"
 
 alias push="git push"
 alias pull="git pull"
 alias come="git push"
+alias xcrun="echo \"Did you add -DCMAKE_FIND_ROOT_PATH=\\\"/usr/osxcross\\\"\"; xcrun"
 
 # source /opt/esp-idf/export.sh
 # source /home/cyao/Developer/oss-cad-suite/environment

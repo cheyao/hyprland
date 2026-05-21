@@ -1,0 +1,12 @@
+hl.env("GTK_IM_MODULE", "fcitx")
+hl.env("SDL_IM_MODULE", "fcitx")
+hl.env("QT_IM_MODULE", "fcitx")
+hl.env("XMODIFIERS", "@im=fcitx")
+hl.env("GLFW_IM_MODULE", "ibus")
+hl.env("INPUT_METHOD", "fcitx")
+hl.env("XDG_MENU_PREFIX", "arch-")
+
+hl.env("QT_QPA_PLATFORM", "wayland;xcb")
+hl.env("QT_QPA_PLATFORMTHEME", "qt5ct")
+-- hl.env("XDG_CONFIG_HOME", "~/.config/")
+hl.env("GTK_THEME", "Adwaita:dark")
