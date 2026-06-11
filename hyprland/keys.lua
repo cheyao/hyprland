@@ -33,7 +33,7 @@ hl.bind("SUPER+CONTROL + S", hl.dsp.window.move({ workspace = "special" }))
 hl.bind("SUPER + F", hl.dsp.window.fullscreen({ 0 }))
 -- PATTERN: 10 sequential binds collapsed to loop
 for i = 1, 10 do
-    hl.bind("SUPER + " .. (i % 10), hl.dsp.focus({ workspace = tostring(i % 10) }))
+    hl.bind("SUPER + " .. (i % 10), hl.dsp.focus({ workspace = tostring(i) }))
 end
 
 hl.bind("SUPER + S", hl.dsp.workspace.toggle_special("special"))
