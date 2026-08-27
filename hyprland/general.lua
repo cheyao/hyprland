@@ -1,8 +1,8 @@
-hl.monitor({ output = "HDMI-A-2", position = "auto" })
 hl.monitor({ output = "eDP-1", mode = "preferred", position = "0x0", scale = 1.5666, icc = "/usr/share/color/icc/colord/BOE_CQ_______NE135FBM_N41_01.icm" })
 hl.monitor({ output = "desc:Dell Inc. DELL P2425H 1MF7H14", position = "auto-up", scale = 1.25 })
 hl.monitor({ output = "desc:LG Electronics LG ULTRAFINE 501NTAB6R712", position = "auto-up", scale = 2.0 })
 hl.monitor({ output = "desc:Sony SONY TV 0x01010101", position = "auto-up" })
+hl.monitor({ output = "HEADLESSS", mode = "preferred", position = "auto", scale = 1 })
 hl.monitor({ output = "", mode = "preferred", position = "auto", scale = 1.25 })
 
 hl.config({
@@ -76,13 +76,6 @@ hl.config({
         no_update_news = true,
     }
 })
-
-hl.monitor({ output = "HDMI-A-2", position = "auto" })
-hl.monitor({ output = "eDP-1", position = "0x0", scale = 1.5666 })
-hl.monitor({ output = "desc:Dell Inc. DELL P2425H 1MF7H14", position = "auto-up", scale = 1.25 })
-hl.monitor({ output = "desc:LG Electronics LG ULTRAFINE 501NTAB6R712", position = "auto-up", scale = 2.0 })
-hl.monitor({ output = "desc:Sony SONY TV 0x01010101", position = "auto-up" })
-hl.monitor({ output = "", mode = "preferred", position = "auto", scale = 1.25 })
 
 hl.workspace_rule({ workspace = "700" })
 hl.workspace_rule({ workspace = "0.2" })

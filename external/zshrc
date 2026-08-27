@@ -125,3 +125,6 @@ alias xcrun="echo \"Did you add -DCMAKE_FIND_ROOT_PATH=\\\"/usr/osxcross\\\"\"; 
 rfkill unblock all
 
 alias eve="LD_PRELOAD= PROTON_NO_FSYNC=1 PROTON_NO_ESYNC=1 PROTONPATH=\"/usr/share/steam/compatibilitytools.d/proton-ge-custom/\" gamescope --fullscreen --force-grab-cursor -W 1920 -H 1080 -- umu-run /home/cyao/Games/umu/umu-default/drive_c/users/steamuser/AppData/Local/eve-online/eve-online.exe"
+
+export PATH="/home/cyao/.bun/bin:$PATH"
+# source /opt/esp-idf/export.sh
