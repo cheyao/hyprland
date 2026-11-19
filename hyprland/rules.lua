@@ -16,6 +16,7 @@ hl.window_rule({
     match = { title = "^(File Upload)(.*)$" },
     match = { title = ".*\\.exe" },
     match = { title = "^(Minecraft)(.*)$" },
+    match = { class = "^(rawdraw)$" },
     float = true
 })
 hl.window_rule({ match = { class = "(dev.warp.Warp)" }, tile = true })

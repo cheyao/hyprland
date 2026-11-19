@@ -3,7 +3,7 @@ hl.monitor({ output = "desc:Dell Inc. DELL P2425H 1MF7H14", position = "auto-up"
 hl.monitor({ output = "desc:LG Electronics LG ULTRAFINE 501NTAB6R712", position = "auto-up", scale = 2.0 })
 hl.monitor({ output = "desc:Sony SONY TV 0x01010101", position = "auto-up" })
 hl.monitor({ output = "HEADLESSS", mode = "preferred", position = "auto", scale = 1 })
-hl.monitor({ output = "", mode = "preferred", position = "auto", scale = 1.25 })
+hl.monitor({ output = "", mode = "preferred", position = "auto", scale = 1.25, mirror = "eDP-1" })
 
 hl.config({
     general = {

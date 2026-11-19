@@ -128,3 +128,4 @@ alias eve="LD_PRELOAD= PROTON_NO_FSYNC=1 PROTON_NO_ESYNC=1 PROTONPATH=\"/usr/sha
 
 export PATH="/home/cyao/.bun/bin:$PATH"
 # source /opt/esp-idf/export.sh
+
